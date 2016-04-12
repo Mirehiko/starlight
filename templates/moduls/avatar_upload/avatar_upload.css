@@ -1,0 +1,29 @@
+        .defaultImage{
+            width: 200px;
+            height: 200px;
+            background-color: white;
+            box-shadow: 0 0 4px 0 rgba(60, 53, 37, 0.44);
+            padding: 0;
+            display: block;
+            margin:0 auto;
+            margin-top: 15px;
+            background-color: darkgray;
+        }
+        .defaultImage:hover{
+            cursor: pointer;
+        }
+        #load-img{
+            margin: 0 auto;
+            margin-top: 15px;
+        }
+        #upload_image{
+            margin-top: 15px;
+            position: none;
+            overflow: hidden;   
+        }
+        #file-field{
+            display: none;
+        }
+        .img-con{
+            list-style: none;
+        }

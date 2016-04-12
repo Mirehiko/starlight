@@ -1,0 +1,27 @@
+.randomFilm{
+    background-color: #414B58;
+    width: auto;
+    margin-top: 30px;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-radius: 5px;
+    padding: 15px 0 0 0px;
+    color: #FFF;
+}
+.randomFilm a{
+    color: #FFF;
+    display: block;
+    padding-top: 0;
+}
+.randomFilm p{
+    font-family: 'NeoSansCyr-Medium', sans-serif;
+    padding: 0 0 0 15px !important; 
+}
+.randomFilm > div > a,
+.randomFilm > div > p{
+    padding: 15px;
+}
+.r-f-poster{
+    width: 100%;
+    padding: 0px 5px 0 5px;
+}

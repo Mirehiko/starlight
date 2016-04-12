@@ -1,0 +1,77 @@
+        body{
+            background-image: none;
+            background-color: rgba(96, 125, 139, 0.3);
+        }
+        .thead-c{
+            background-color: #607D8B;
+        }
+        .thead-c:hover{
+            background-color: #607D8B !important;
+        }
+        .thead-c a{
+            color: #FFF;
+        }
+        .l_column{
+            width: 100px;
+        }
+        .state-link{
+            background-color: rgba(238, 238, 238, 0.56);
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            padding: 3px;
+            margin-left: 5px;
+            width: 25px;
+            height: 25px;
+            display: block;
+            text-align: center;
+            vertical-align: middle;
+            box-sizing: border-box;
+        }
+        .state-link:focus{
+            outline-color: #A7A7A7;
+            outline-width: 5px;
+            outline-style: none;
+        }
+        .state-link_print > .state-link__state-icon{
+            color: #7DCE00;
+        }
+        .state-link_keep > .state-link__state-icon{
+            color: #E83A26;
+        }
+        #list-container{
+            margin-bottom: 20px;
+        }
+
+
+        .edit{
+            color: #009688 !important;
+            background-color: rgba(238, 238, 238, 0.56);
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            padding: 3px;
+            margin-left: 5px;
+            width: 25px;
+            height: 25px;
+            display: block;
+            text-align: center;
+            vertical-align: middle;
+            box-sizing: border-box;
+        }
+        .edit:hover{
+            box-shadow: 1px 0px 8px -1px rgba(132, 132, 132, 0.35) inset;
+        }
+        .remove-column{
+            text-align: center;
+            min-width: 130px;
+        }
+        .remove-record{
+            font-size: 18px;
+        }
+        .remove-record:hover{
+            color: #FB1400 !important;
+        }
+        .content{
+            overflow: hidden;
+            height: 17px;
+            width: auto;
+        }

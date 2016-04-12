@@ -1,0 +1,43 @@
+	body{
+		background-color: #D0C3A2;
+		font-family: 'NeoSansCyr-Regular', sans-serif;
+	}
+	.navbar-admin{
+	    background-color: #009688;
+	    border-color: #080808;
+	    color: #FFFFFF;
+	    font-family: 'NeoSansCyr-Medium', sans-serif;
+	}
+	.navbar-admin a{
+		color: #FFF;
+	}
+	.navbar-admin a:hover{
+		color: #FFF !important;
+		background-color: #0B8075 !important;
+	}
+
+/**/
+	#action-menu{
+		margin-top: 50px;
+		margin-bottom: -15px;
+	}
+	.admin-content{
+		background-color: #FFF;
+	}
+	.content-table a{
+		color: #434855;
+	}
+	.mycheckbox{
+		margin: 0;
+	}
+	.mycheckbox label{
+	    min-height: 20px;
+	    padding-left: 20px;
+	    margin-bottom: 0;
+	    font-weight: normal;
+	    cursor: pointer;
+	}
+	.mycheckbox input[type='checkbox']{
+		position: absolute;
+		margin: 0;
+	}

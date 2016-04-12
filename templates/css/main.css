@@ -1,0 +1,168 @@
+    /*Установка шрифтов*/
+        @font-face {
+            font-family: 'NeoSansCyr-Regular';
+            src: url('/fonts/NeoSansCyr-Regular.eot?') format('eot'),
+            url('/fonts/NeoSansCyr-Regular.woff') format('woff'),
+            url('/fonts/NeoSansCyr-Regular.ttf')  format('truetype'),
+            url('/fonts/NeoSansCyr-Regular.svg#NeoSansCyr-Regular') format('svg');
+        }
+        @font-face {
+            font-family: 'NeoSansCyr-Medium';
+            src: url('/fonts/NeoSansCyr-Medium.eot?') format('eot'),
+            url('/fonts/NeoSansCyr-Medium.woff') format('woff'),
+            url('/fonts/NeoSansCyr-Medium.ttf')  format('truetype'),
+            url('/fonts/NeoSansCyr-Medium.svg#NeoSansCyr-Medium') format('svg');
+        }
+        @font-face {
+            font-family: 'NeoSansCyr-Italic';
+            src: url('/fonts/NeoSansCyr-Italic.eot?') format('eot'),
+            url('/fonts/NeoSansCyr-Italic.woff') format('woff'),
+            url('/fonts/NeoSansCyr-Italic.ttf')  format('truetype'),
+            url('/fonts/NeoSansCyr-Italic.svg#NeoSansCyr-Italic') format('svg');
+        }
+        html {
+            background: #edf4fb url(http://tr.anidub.com/templates/Anidub/images/bg.png) repeat;
+        }
+        body{
+            background: url(http://tr.anidub.com/templates/Anidub/images/header_bg.png)no-repeat center 158px;
+            font-family: 'NeoSansCyr-Regular', sans-serif;
+        }
+
+
+    /*Хедер*/    
+        .navbar-brand{
+            color: #9d9d9d;
+            text-transform: uppercase;
+            font-family: 'NeoSansCyr-Medium', sans-serif;
+        }
+        .navbar-brand:hover{
+            color: #F95242;
+            /*color: #80C6D6;*/
+        }
+        .navbar-custom{
+            background-color: #050F29;
+            border-color: #080808;
+            color: #9d9d9d;
+        }
+        .navbar{
+            position: relative;
+            min-height: 50px;
+            margin-bottom: 20px;
+            border: none;
+        }
+        .navbar-custom .navbar-nav > li > a {
+            color: #9d9d9d;
+            font-family: 'NeoSansCyr-Medium', sans-serif;
+        }
+        .navbar-custom .navbar-nav > li > a:hover{
+            color: #F95242;
+            /*color: #80C6D6;*/
+            background-color: #050F29; 
+            box-shadow: inset 0 -3px 0 0 #F95242;
+        }
+        #header_c{
+            height: 100px;
+            padding-top: 15px;
+            margin-top: -20px;
+            background-color: white;
+            position: relative;
+            box-sizing: content-box;
+        }
+        #header_b{
+            height: 375px;
+            position: relative;
+        }
+
+
+    /*Содержимое*/
+        #content{
+            padding-top: 20px;
+            min-height: 500px;
+        }
+        .color-left{
+            background-color: transparent;
+        }
+        .color-right{
+            background-color: rgba(0, 0, 0, .075);
+            padding-top: 15px;
+        }
+        .previewImage{
+            padding-top: 5px;
+            width: 248px;
+            height: 342px;
+        }
+        .film_title a{
+            display: block;
+            font-size: 18px;
+            white-space:nowrap;
+            text-overflow:ellipsis;
+            padding: 5px;
+            overflow: hidden;
+            color: #434855;
+            font-family: 'NeoSansCyr-Medium', sans-serif;
+        }
+        .film_content{
+            display: block;
+            padding: 4px;
+            margin-bottom: 20px;
+            line-height: 1.42857143;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            text-align: center;
+        }
+        .film_content > img {
+            margin-right: auto;
+            margin-left: auto;
+            display: block;
+            background-color: #FFF;
+        }
+        .film_c{
+            display: block;
+            overflow: hidden;
+            text-overflow:ellipsis;
+            height: 4.5em;
+        }
+        .film_con{
+            display: block;
+            overflow: hidden;
+            text-overflow:ellipsis;
+        }
+        <acronym>{
+            cursor: pointer;
+        }
+        .label-new{
+            height: 100px;
+            margin-left: 30px;
+            opacity: 0.8;
+            position: absolute;
+        }
+        .label-type{
+            height: 80px;
+            position: absolute;
+            opacity: 0.8;
+            top: 265px;
+            left: 30px;
+        }
+    /*Кнопки*/
+        .btn-more{
+            display: block;
+            border-radius: 6px;
+            padding: 0 14px;
+            height: 40px;
+            width: auto;
+            margin: 0 10px 15px 10px;
+            line-height: 40px;
+            color: white;
+            background-color: #e84c3d;
+            vertical-align: middle;
+            text-shadow: 1px 1px 0 rgba(0,0,0,0.24);
+            text-decoration: none;
+        }
+        .btn-more:hover{
+            color: #fff;
+            background-color: #434855;
+        }
+        .btn-more:focus{
+            color: #fff;
+        }

@@ -1,0 +1,31 @@
+footer{
+    z-index: 1;
+    clear: both;
+    padding: 0;
+    overflow: hidden;
+    height: 237px;
+    background: #fafafa url(http://tr.anidub.com/templates/Anidub/images/footer_bg.png) no-repeat center top;
+    background-size: 100% 142px;
+}
+.footer_h {
+    height: 142px;
+    position: relative;
+}
+
+.footer_b {
+    height: 95px;
+    position: relative;
+}
+.footer_b .logo{
+    background: url("/images/grayscale_logo.png") no-repeat;
+    width: 390px;
+    height: 66px;
+}
+.footer_b .logo:hover{
+    background: url("/images/primary_logo.png") no-repeat;
+}
+.footer_b .logo a {
+    display: block;
+    width: 390px;
+    height: 66px;
+}

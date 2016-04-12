@@ -1,0 +1,154 @@
+		.viewport{
+		    width: inherit;
+		    height: 285px;
+		    overflow: hidden;
+		    position: relative;
+		}
+		.slidewrapper{
+		    position: absolute;
+		    left: 0;
+		    top: 0;
+		    height: 285px;
+		    margin: 0;
+		    padding: 0;
+		}
+		#con-slides{
+			margin: 0;
+			padding: 0;
+		}
+		.slide{
+            width: 174px;
+            height: 285px;
+		    float: left;
+		    list-style: none;
+		    margin: 0;
+		    padding: 0;
+            margin-left: 8px;
+            margin-right: 8px; 
+		    background: #050F29;
+		    border-radius: 5px;
+		}
+		.slide > .slider-item > a>.img{
+			height: 222px;
+			width: 166px;
+			display: block;
+			margin: 0 auto;
+			padding-top: 5px;
+		}
+		/*.slide .slider-item > a{
+			color: #BBAD77;
+			padding: 5px;
+			display: block;
+			word-break:break-all;
+			overflow: hidden;
+			text-align: center;
+		}*/
+		.second{
+		     background: #111;   
+		}
+		.third{
+		     background: #111;   
+		}
+		.arrows{
+		    position: absolute;
+		    top: 0;
+		    bottom: 0;
+		    left: 0;
+		    width: 15%;
+		    font-size: 20px;
+		    color: #fff;
+		    text-align: center;
+		    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+		    opacity: .5;
+		}
+		.arrows:hover, .arrows:focus {
+		 	color: #fff;
+		 	text-decoration: none;
+		 	filter: alpha(opacity=90);
+		 	outline: 0;
+		 	opacity: .9;
+		}
+		#prev_slide{
+			background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
+			background-image:      -o-linear-gradient(left, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
+			background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
+			background-image:         linear-gradient(to right, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+		 	background-repeat: repeat-x;
+		}
+		#next_slide{
+			right: 0;
+			left: auto;
+			background-image: 
+			-webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%);
+			background-image:      
+			-o-linear-gradient(left, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%);
+			background-image: 
+			-webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
+			background-image:         linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+		}
+		.arrows .icon-prev,
+		.arrows .icon-next,
+		.arrows .glyphicon-chevron-left,
+		.arrows .glyphicon-chevron-right {
+		  position: absolute;
+		  top: 50%;
+		  z-index: 5;
+		  display: inline-block;
+		}
+		.arrows .icon-prev, .arrows .glyphicon-chevron-left {
+		  left: 50%;
+		  margin-left: -10px;
+		}
+		.arrows .icon-next, .arrows .glyphicon-chevron-right {
+		  right: 50%;
+		  margin-right: -10px;
+		}
+		.arrows .icon-prev, .arrows .icon-next {
+		  width: 20px;
+		  height: 20px;
+		  margin-top: -10px;
+		  font-family: serif;
+		  line-height: 1;
+		}
+		.arrows .icon-prev:before {
+		  content: '\2039';
+		}
+		.arrows .icon-next:before {
+		  content: '\203a';
+		}
+
+
+/*Customisation*/
+        #news_title{
+            color: #434855;
+                font-family: 'NeoSansCyr-Medium', sans-serif;
+        }
+        #news_title > b {
+            color: #e84c3d;
+            font-weight: normal;
+        }
+        #slider-box{
+            padding-top: 5px;
+        }
+        .slider-item{
+            width: 174px;
+            height: 285px;
+            box-sizing: content-box;
+
+        }
+        .slider-item .a_title{
+            /*white-space:nowrap;
+            text-overflow:ellipsis;*/
+            padding: 5px;
+            overflow: hidden;
+            height: 3.4em;
+            text-overflow: -o-ellipsis-lastline;
+
+            color: #BBAD77;
+            padding: 5px;
+            display: block;
+            word-break:break-all;
+            text-align: center;
+        }

@@ -1,0 +1,130 @@
+.logo{
+	background: url("/images/primary_logo.png") no-repeat;
+    width: 390px;
+    height: 66px;
+    position: absolute;
+}
+#header_c .logo a {
+    display: block;
+    width: 390px;
+    height: 66px;
+}
+
+#user_info{
+	float: right;
+	min-width: 355px;
+	overflow: hidden;
+	height: 100px;
+}
+.intro{
+    display: block;
+    background: #fafafa;
+    border: 2px dashed #F1F5F5;
+    border-radius: 2px;
+    overflow: hidden;
+    margin: 3px 9px 0 0;
+    text-align: center;
+    padding: 10px 11px;
+    font-size: 11px;
+    color: #394e63;
+    width: 130px;
+    float: left;
+    height: 85px;
+}
+#user_info .intro a{
+	text-decoration: underline;
+	color: #becacd;
+}
+#user_info .intro b{
+    font-weight: normal;
+    color: #e84c3d;
+    font-size: 13px;
+    display: block;
+    margin: 5px 0;
+}
+#user_info .avatar {
+
+    background: #f2f5f5;
+    padding: 4px;
+    display: block;
+    margin: 3px 9px 0 0;
+    float: left;
+}
+.avatar{
+	position: relative;
+}
+.avatar img{
+	width: 76px;
+	height: 76px;
+}
+.menu{
+    display: block;
+    background: #fafafa;
+    border: 2px dashed #F1F5F5;
+    border-radius: 2px;
+    overflow: hidden;
+    margin: 3px 9px 0 0;
+    text-align: center;
+    padding: 10px 11px;
+    font-size: 13px;
+    color: #394e63;
+    width: 130px;
+    float: left;
+    height: 85px;
+    vertical-align: middle;
+}
+.menu a{
+	color: #e84c3d;
+	text-decoration: none;
+	display: block;
+    height: 30px;
+    
+}
+.menu a:hover{
+	opacity: 0.7;
+}
+.menu-u a{
+    padding-top: 10px;
+}
+.menu-a a{
+    padding-top: 20px;
+}
+.form-autorization{
+    display: inline-block;
+    width: 100%;
+    height: 34px;
+    padding: 15px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #FFF;
+    margin:0 9px 8px 0;
+    outline-color: #fff;
+    float: left;
+}
+..form-autorization:focus{
+    border-color: #fff;
+
+}
+.intro-name{
+    padding-top: 20px;
+}
+.intro-form{
+    width: 300px;
+    padding-top: 0;
+
+}
+.intro-form span input{
+    display: inline-block;
+}
+.f-a-p{
+    width: 170px;
+
+}
+#f-a-b{
+    width: 70px;
+    float: left;
+    border: 2px solid #e84c3d;
+    color: #e84c3d !important;
+    text-decoration: none !important;
+}

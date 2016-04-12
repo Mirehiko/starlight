@@ -1,0 +1,57 @@
+.edit-content{
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.edit-content p{
+    padding-top: 15px;
+    margin: 0;
+    font-family: 'NeoSansCyr-Medium', sans-serif;
+    color: #3b5167;
+}
+.producer{
+    width: 200px;
+}
+.edit-freedom{
+    width: 160px;
+}
+.long{
+    width: 150px;
+}
+.edit-description{
+    width: 100%;
+    height: 150px !important;
+    max-width: 100%;
+}
+body{
+    background-image: none;
+    background-color: rgba(96, 125, 139, 0.3);
+}
+/*Картинка*/
+.div-img{
+    padding-top: 20px;
+}
+.edit-poster{
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 4px 0 rgba(60, 53, 37, 0.44);
+}
+
+.edit-poster:hover{
+    cursor: pointer;
+}
+#load-img{
+    margin: 0 auto;
+    margin-top: 15px;
+}
+#upload_image{
+    margin-top: 15px;
+    position: none;
+    overflow: hidden;   
+}
+#file-field{
+    display: none;
+}
+.img-con{
+    list-style: none;
+}    
