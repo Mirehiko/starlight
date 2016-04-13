@@ -164,8 +164,8 @@
                     </div>
                 </td>
                 <td><a href="/administrator/edit/film/<?php echo $sItem['id'];?>"><?php echo $sItem['s_date'];?></a></td>
-                <td><a href="#" data-toggle='dropdown'><?php echo $sItem['s_time'];?></a></td>
-                <td><a href="#" data-toggle='dropdown'><?php echo $sItem['s_engaged'];?></a></td>
+                <td><a href="#" data-toggle='dropdown'><?php echo $sItem['b_time'];?></a></td>
+                <td><a href="#" data-toggle='dropdown'><?php echo $sItem['e_time'];?></a></td>
                 <?php 
                     foreach ($filmList as $fItem) {
                        if($sItem['s_film']==$fItem['id']){

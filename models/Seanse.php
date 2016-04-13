@@ -7,7 +7,8 @@ class Seanse {
         $db = Db::getConnection();
 
         $seansesList = array();
-        $result = $db->query('SELECT * FROM seanses ORDER BY b_time DESC');
+        $sql = "SELECT * FROM seanses ORDER BY b_time ASC";
+        $result = $db->query('SELECT * FROM seanses ORDER BY b_time ASC');
                 //. 'ORDER BY sort_order ASC');
         if($result){
             $i = 0;

@@ -58,14 +58,22 @@
                 var password = $('#password').val();
                 var repassword = $('#repassword').val();
 
+                var loadimg = "";
+                console.log("send"+path);
                 if(img_attached == true){
-                    path = path_to_film;
-                }else if(path_to_film == default_image){
-                    path = default_image;
-                }else{
-                    path = path_to_film;
+                    if(path_to_film == default_image){
+                        path_to_film = "/user_data/"+id+"/avatar.jpg";
+                    }
+                    path = u + path_to_film;
+                    loadimg = path_to_film;
+                    $('#load-img').click();
+                }else {
+                    if(path_to_film == default_image){
+                        loadimg = default_image;
+                    }else{
+                        loadimg = path_to_film;
+                    }
                 }
-
                 $.post(
                     href,
                     {
@@ -75,11 +83,11 @@
                         password:    password,
                         repassword:  repassword,
                         freedom:     freedom,
-                        avatar:      default_image
+                        avatar:      loadimg
                     },
                     function(data){
                         console.log(data);
-                        //location.reload();
+                        location.reload();
                     }
                 );
             });

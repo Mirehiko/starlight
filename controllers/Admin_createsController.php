@@ -172,7 +172,7 @@ class Admin_createsController{
                     $avatar = "/user_data/$userID/avatar.jpg";
                     User::updateUser($userID,$name, $email, $password, $freedom, $avatar);
                 }
-                echo "1$was_image$avatar";
+                echo "1$was_image".$avatar;
             }
         }
         return true;

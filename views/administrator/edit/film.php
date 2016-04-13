@@ -140,15 +140,23 @@
                     is_anime = 0;
                 }
 
+                var loadimg = "";
+                console.log("send"+path);
                 if(img_attached == true){
-                    path = path_to_film;
-                }else if(path_to_film == default_image){
-                    path = default_image;
-                }else{
-                    path = path_to_film;
+                    if(path_to_film == default_image){
+                        path_to_film = "/images/films_data/"+id+"/poster.jpg";
+                    }
+                    path = u + path_to_film;
+                    loadimg = path_to_film;
+                    $('#load-img').click();
+                }else {
+                    if(path_to_film == default_image){
+                        loadimg = default_image;
+                    }else{
+                        loadimg = path_to_film;
+                    }
                 }
                 
-                console.log(path);
                 $.post(
                     href,
                     {
@@ -158,13 +166,13 @@
                         f_long:   long,
                         content:  content,
                         year:     selected_year,
-                        poster:   path,
+                        poster:   loadimg,
                         is_anime:   is_anime,
                         is_series:  is_series
                     },
                     function(data){
                         console.log(data);
-                        location.reload();
+                        //location.reload();
                     }
                 );
             });

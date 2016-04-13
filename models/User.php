@@ -40,11 +40,12 @@ class User {
     	$result->bindParam(':freedom',$freedom,PDO::PARAM_INT);
         $result->bindParam(':avatar',$avatar,PDO::PARAM_STR);
     	$result->bindParam(':id',$id,PDO::PARAM_INT);
-    	if($result->execute()){
+        return $result->execute();
+    	/*if($result->execute()){
     		echo("Запись успешно обновлена!");
     	}else{
     		echo "Ошибка обновления записи!";
-    	}
+    	}*/
 	}
     #Удаление пользователя
     public static function removeUser($id){

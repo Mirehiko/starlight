@@ -60,7 +60,7 @@ class Admin_removeController{
                     //<td><a href='/administrator/films/remove/".$filmItem['id']."' data-toggle='dropdown'>Удалить</a></td>
                 echo "
                     <td class='remove-column'>
-                        <a href='#' data-toggle='dropdown' class='remove-record'><i class='fa fa-trash'></i></a>
+                        <a href='#' link='/administrator/remove/film/".$filmItem['id']."' data-toggle='dropdown' class='remove-record'><i class='fa fa-trash'></i></a>
                     </td>
                 </tr>
                 ";

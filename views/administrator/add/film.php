@@ -143,7 +143,7 @@
                             }else{
                                 console.log('Изображение не выбрано');
                             }                        
-                            location.reload();
+                            //location.reload();
                         }
                     }
                 );

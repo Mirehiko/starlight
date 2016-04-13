@@ -78,14 +78,14 @@
                         avatar:      default_image
                     },
                     function(data){
-                        var success = data.charAt(25);
+                        var success = data.charAt(0);
                         if(success == 1){
                             console.log('Пользователь успешно добавлен!');
                             //var puti = data.substring(30);
-                            var was_image = data.charAt(26);
+                            var was_image = data.charAt(1);
                             if(was_image == 1){
-                                film_folder = data.substring(27);
-                                console.log('Крепим картинку...');
+                                film_folder = data.substring(2);
+                                console.log('Крепим картинку...'+film_folder);
                                 path = path + film_folder;
                                 $('#load-img').click();
                             }else{
